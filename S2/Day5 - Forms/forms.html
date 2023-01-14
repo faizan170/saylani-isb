@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://google.com/search">
+        <input type="search" name="q" placeholder="Search Google..." />
+    </form>
+    <form action="https://youtube.com/search">
+        <input type="text" name="q" placeholder="Search Google..." />
+    </form>
+    <br />
+    <br />
+    <form>
+        <div>
+            <label for="fullname">Enter Full Name</label>
+            <input type="text" disabled value="Faizan" name="fullname" maxlength="20" placeholder="Enter your name" />
+        </div>
+        <div>
+            <label for="email">Enter Email</label>
+            <input type="email" value="faizan@mlhive.com" readonly="1" name="email" placeholder="Enter your email" />
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input type="password" name="password" placeholder="Enter your Password" />
+        </div>
+
+        <div>
+            <label for="age">Enter Age</label>
+            <input type="number" value="40" name="age" placeholder="Enter your Age" min="1" max="150" />
+        </div>
+
+        <div>
+            <label for="dob">Enter DOB</label>
+            <input type="date" name="dob" />
+        </div>
+
+        <div>
+            <label for="admissionDatetime">Enter Admission Datetime</label>
+            <input type="datetime-local" name="admissionDatetime" />
+        </div>
+
+        <div>
+            <label for="favColor">Enter Fav Color</label>
+            <input type="color" name="favColor" />
+        </div>
+
+        <div>
+            <label for="gender">Select Gender</label>
+
+
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" />
+            </div>
+        </div>
+        <div>
+            <label for="subjects">Select Subjects</label>
+            <div>
+                <label>Web Development</label>
+                <input type="checkbox" name="subjects" value="web development" />
+                <label>Android Development</label>
+                <input type="checkbox" name="subjects" value="android development" />
+                <label>Cloud Apps</label>
+                <input type="checkbox" name="subjects" value="cloud apps" />
+            </div>
+        </div>
+        <div>
+            <label for="country">Select a Country</label>
+            <select name="country">
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>Sri Lanka</option>
+                <option>Nepal</option>
+            </select>
+        </div>
+
+        <input type="hidden" name="token" value="3489t349th3894t" />
+
+        <div>
+            <label for="profilePic">Select Profile Pic</label>
+            <input type="file" name="profilePic" />
+        </div>
+
+        <div>
+            <label for="priceRange">Select Price Range</label>
+            <input type="range" min="500" max="10000" name="priceRange" />
+        </div>
+
+        <div>
+            <label for="phone">Enter Phone Number</label>
+            <input type="tel" name="phone" title="Format: XXXX-XXXXXXX" pattern="[0-9]{4}-[0-9]{7}" placeholder="Enter Phone Number" />
+        </div>
+
+        <input type="submit" value="Submit Form" />
+        <input type="button" value="Submit Form Button" />
+        <input type="reset" value="Clear Form" />
+    </form>
+
+    <button>Ok</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+</body>
+</html>
