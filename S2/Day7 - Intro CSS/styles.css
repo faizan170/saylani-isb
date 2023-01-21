@@ -1,0 +1,49 @@
+h1 {
+    font-size: 50px;
+}
+.textred {
+    color: red;
+}
+.main-heading {
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: blanchedalmond;
+}
+/* This is a comment */
+/*
+.text-center {
+    text-align: center;
+    color: blue
+}
+*/
+.text-center {
+    text-align: center;
+}
+.textgreen {
+    color: green;
+}
+#level3 {
+    font-size: 35px;
+}
+
+
+.box {
+    background-color: blue;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+
+    /* margin: 50px; */
+    /* margin: 50px 100px; */
+    margin: 50px 100px 50px 100px;
+    /* padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 10px 100px;
+}
+.box h1 {
+    color: black;
+    background-color: blanchedalmond;
+}

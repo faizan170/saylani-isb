@@ -1,0 +1,38 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-color: red; */
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1200&fit=crop&crop=faces);
+    /* background-image: url('./images/22.jpg'); */
+}
+.container h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.images {
+    /* background-color: blanchedalmond; */
+    margin: 0px 50px;
+}
+.images img {
+    height: 200px;
+    margin: 10px 5px;
+}
+
+.single-image figure {
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+    padding: 50px;
+    width: 400px;
+}
+
+.single-image img {
+    height: 200px;
+}
+.single-image figcaption {
+    font-size: 25px;
+}
