@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+}
+.underlined {
+    text-decoration: underline;
+}
+
+.overlined {
+    /* text-decoration: line-through; */
+    border: 1px solid #ccc;
+    width: 200px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 70px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+    text-shadow:4px 3px 20px red;
+}

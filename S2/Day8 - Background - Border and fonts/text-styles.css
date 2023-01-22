@@ -1,0 +1,24 @@
+.article-heading{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.article-details{
+    text-transform: lowercase;
+    border: 1px solid #ccc;
+    height: 150px;
+    width: 300px;
+    overflow: auto;
+    text-shadow: 7px 7px 6px rgb(40, 39, 39);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    box-shadow: 4px 8px 10px black;
+}
+
+.details {
+    width: 500px;
+    border: 1px solid red;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

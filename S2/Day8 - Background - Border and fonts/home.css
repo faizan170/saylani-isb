@@ -1,0 +1,30 @@
+p {
+    color: red;
+    /* background-image: url('./images/one.jpg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: antiquewhite; */
+
+    background: antiquewhite url('./images/one.jpg') right no-repeat;
+
+    height:210px;
+
+    /* 
+    border-width: 3px;
+    border-color: red;
+    border-style: double; */
+    border: 3px double;
+    /* border-left-color: brown;
+    border-right-color: red;
+    border-top-color: black;
+    border-bottom-color: blue; */
+    border-color: black red blue brown;
+
+    border-radius: 15px;
+}
+
+.round-image{
+    border: 3px solid red;
+    border-radius: 50%;
+}
