@@ -1,0 +1,22 @@
+h1 {
+    color: aqua;
+    text-transform: uppercase;
+}
+
+p {
+    color: green;
+    text-indent: 20px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px lightgreen, 1px 1px 5px red;
+    font-family: sans-serif
+}
+
+.single-line{
+    color: black;
+    word-break: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

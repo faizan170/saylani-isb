@@ -1,0 +1,20 @@
+.company-data, .company-data td, .company-data th {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.company-data {
+    width: 100%;
+}
+
+.company-data td, .company-data th {
+    padding: 10px;
+}
+
+.company-data th {
+    background-color: lightcoral;
+}
+
+.company-data tr:hover{
+    background-color: gray;
+}

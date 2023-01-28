@@ -1,0 +1,19 @@
+.data-table {
+    background-color: #25C097;
+    width: 80%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.data-table th {
+    background-color: #66D4B6;
+}
+
+.data-table th, .data-table td {
+    padding: 8px 15px;
+    border-bottom: 1px solid lightgreen;
+}
+
+.data-table h1 {
+    text-align: center;
+}

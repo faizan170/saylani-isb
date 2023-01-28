@@ -1,0 +1,27 @@
+.google-link{
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 1px solid lightcoral;
+    padding: 4px 8px;
+    background-color: rgb(231, 57, 57);
+    border-radius: 4px;
+    margin: 5px;
+    color: rgb(217, 205, 181);
+}
+/* p:hover */
+.google-link:hover{
+    background-color: brown;
+    color: aquamarine;
+}
+
+.google-link:visited{
+    color: blue;
+}
+
+.chand {
+    cursor:pointer;
+}
+
+.chand:hover {
+    color: red;
+}

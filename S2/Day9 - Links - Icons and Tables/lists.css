@@ -1,0 +1,14 @@
+.programming-languages {
+    /* list-style-image: url('./apple.svg'); */
+    list-style-type: none;
+    padding: 10px;
+}
+.programming-languages li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #09f;
+}
+
+.programming-languages-orderd {
+    list-style-type: lower-roman;
+}

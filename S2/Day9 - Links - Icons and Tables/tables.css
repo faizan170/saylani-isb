@@ -1,0 +1,26 @@
+.data-table, .data-table td, .data-table th{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.data-table {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.data-table th, .data-table td {
+    padding: 4px 10px;
+}
+
+.data-table th {
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+
+.data-table tr:hover{
+    background-color: rgba(191, 166, 210, 0.667);
+}
+
+.company-col {
+    width: 30%;
+}

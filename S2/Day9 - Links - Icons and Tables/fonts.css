@@ -1,0 +1,16 @@
+p {
+    text-indent: 30px;
+    word-break: break-all;
+    line-height: 30px;
+    text-shadow: 0 0 5px red, 0 0 5px green, 0 0 5px blue;
+}
+
+.custom-icon {
+    color: green;
+    font-size: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.fas {
+    color: blue;
+}

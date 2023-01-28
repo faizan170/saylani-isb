@@ -1,0 +1,14 @@
+.programming-languages{
+    list-style-type: square;
+}
+
+.students {
+    list-style-image: url('./apple.svg');
+    margin: 0;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.paragraphs {
+    list-style-position: inside;
+}
