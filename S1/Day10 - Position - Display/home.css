@@ -1,0 +1,29 @@
+.box button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.btn-container {
+    position: fixed;
+    top: 30px;
+    right: 0;
+    background-color: aqua;
+    width: 100%;
+}
+
+.prelative {
+    position: relative;
+    background-color: bisque;
+    top: 10px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.prelative img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}

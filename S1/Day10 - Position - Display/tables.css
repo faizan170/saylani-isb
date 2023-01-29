@@ -1,0 +1,40 @@
+.company-data, .company-data th, .company-data td {
+    border: 1px solid lightcoral;
+    border-collapse: collapse;
+}
+
+.company-data {
+    width: 100%;
+}
+
+.company-data tr:hover {
+    background-color: gray;
+}
+
+/* .company-data tr:nth-child(even) {
+    background-color: aqua;
+} */
+
+.highlighted {
+    background-color: aqua;
+}
+
+.urls a {
+    color: beige;
+    background-color: rgb(56, 221, 166);
+    text-decoration: none;
+    border: 1px solid lightcoral;
+    padding: 4px 8px;
+    display: inline-block;
+    width: 100px;
+}
+
+.url-facebook {
+    background-color: brown !important;
+}
+
+.heading {
+    display: none;
+}
+
+

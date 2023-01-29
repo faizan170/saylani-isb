@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-chat {
+            background-color: aquamarine;
+            border: 1px solid aqua;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .btn-chat {
+            margin-top: 10px;
+            background-color: #09F;
+            padding: 5px 8px;
+            display: block;
+
+        }
+
+        .btn-close {
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            z-index: 1
+        }
+        .container {
+            background-color: red;
+            height: 100px;
+            position: relative;
+        }
+        .bg-green {
+            background-color: green;
+            height: 50px;
+            width: 50%;
+        }
+        .bg-blue {
+            background-color: blue;
+            height: 49px;
+        }
+        .overlay {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            left: 1px;
+            bottom: 1px;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Chat Widget</h1>
+    <div class="container">
+        <div class="bg-green"></div>
+        <div class="bg-blue"></div>
+        <div class="overlay">
+            Hello World
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- <div class="box-chat">
+            <button class="btn-close">&times;</button>
+            <input type="text" placeholder="type message" />
+            <button class="btn-chat">Send Message</button>
+        </div> -->

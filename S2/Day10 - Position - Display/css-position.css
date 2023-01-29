@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.web-logo {
+    padding: 0;
+    margin: 0;
+}
+.urls {
+    background-color: #09F;
+    position: sticky;
+    top: 5px;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 6;
+}
+.urls a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+}
+
+article {
+    padding-top: 60px;
+}
+
+.box-chat {
+    background-color: aquamarine;
+    border: 1px solid aqua;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 40px;
+    height: 100px;
+    left: 40px;
+}
+.btn-chat {
+    margin-top: 10px;
+    background-color: #09F;
+    padding: 5px 8px;
+    display: block;
+    
+}
