@@ -1,0 +1,24 @@
+.container::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.box {
+    width: 40%;
+    height: 100px;
+}
+.box1 {
+    background-color: red;
+    float: right;
+}
+.box2 {
+    background-color: blue;
+    float: left;
+}
+.box3 {
+    background-color: lightcoral;
+}
+.box4 {
+    background-color: green;
+}

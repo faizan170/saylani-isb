@@ -1,0 +1,102 @@
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #06F;
+    font-family: sans-serif;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 8px 14px;
+}
+
+.nav-item a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #09F;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .child-nav {
+    display: block;
+}
+
+
+.child-nav {
+    position: absolute;
+}
+
+.child-nav{
+    background-color: #09F;
+    list-style-type: none;
+    width: 100px;
+    display: none;
+}
+
+.child-nav li{
+    padding: 5px 15px;
+}
+
+
+.container {
+    /* padding: 10px 50px; */
+    width: 80%;
+    margin: auto;
+}
+
+
+article {
+    width: 75%;
+    float: left;
+}
+aside {
+    width: 25%;
+    float: left;
+}
+
+
+.newsletter {
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+    background-color: #c09292;
+}
+
+input[type='email'] {
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type='submit'] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.newsletter-container {
+    padding: 20px;
+    position: relative;
+}
+
+.btn{
+    background-color: #09F;
+    color: #FFF;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    border-radius: 50%;
+}
+

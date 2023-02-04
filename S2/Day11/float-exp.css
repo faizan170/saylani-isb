@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 20%;
+}
+.inner {
+    padding: 10px;
+}
+
+.box1 {
+    background-color: red;
+    float: right;
+}
+
+.box2{
+    background-color: green;
+    float: left;
+}
+
+.box3{
+    background-color: blue;
+    float: left;
+}
+
+h1 {
+    margin:0
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.box-container::after{
+    clear: both;
+    content: "";
+    display: block;
+}

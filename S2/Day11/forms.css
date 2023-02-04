@@ -1,0 +1,78 @@
+.forms {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 1px 1px 6px #ccc;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 30%;
+    margin: auto;
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.forms h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.forms form {
+    margin-top: 20px;
+}
+.form-input {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline-color: red;
+    outline-width: 1px;
+    box-shadow: 1px 1px 4px red;
+}
+
+.form-input[type="email"] {
+    border: 4px solid green;
+}
+ 
+option {
+    padding: 5px 10px;
+}
+
+.form-elemnt {
+    padding: 6px 0px;
+}
+
+.form-elemnt label {
+    padding: 8px 0px;
+    display: block;
+}
+
+.checkbox-input{
+    padding: 10px;
+    width: 40px;
+    border: 1px solid blue
+}
+.heading-container {
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 9px;
+}
+
+a[target="_blank"] {
+    color: red;
+}
+
+a[target="_self"] {
+    color: green;
+}

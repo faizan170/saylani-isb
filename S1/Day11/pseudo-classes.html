@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+        .paragraph::before{
+            content: "Hello:";
+            color: black;
+        }
+        .para1::first-letter {
+            text-transform: uppercase;
+            color: red;
+            font-weight: bold;
+            font-size: 28px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p class="paragraph">This is some text.</p>
+    <p class="para1">this is some text.</p>
+
+    <div>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+    </div>
+
+    <article>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+        <div>
+            <p class="paragraph">This e323 is some text.</p>
+            <p>This is some text.</p>
+        </div>
+    </article>
+    
+    <p>This is some text.</p>
+</body>
+
+</html>
