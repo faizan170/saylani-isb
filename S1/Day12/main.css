@@ -1,0 +1,12 @@
+.main-content {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 20% auto 20% 20%;
+    column-gap: 1px;
+    row-gap: 1px;
+    padding: 10px 14px;
+}
+
+.box {
+    background-color: rgb(221, 160, 81);
+}

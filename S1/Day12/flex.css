@@ -1,0 +1,52 @@
+.main-content {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .box {
+    width: 300px
+} */
+
+.box {
+    background-color: aqua;
+    width: 25%;
+}
+
+.box-content {
+    background-color: green;
+    margin: 1px;
+}
+
+.data-box-container {
+    background-color: lightcoral;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.data-box-content {
+    background-color: aqua;
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    margin: auto;
+}
+
+.data-box-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.programming-langs {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.single-lang {
+    background-color: burlywood;
+    width: 25%;
+}

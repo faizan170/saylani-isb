@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pagination {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .pagination li {
+            display: inline-block;
+            padding: 4px 8px;
+            border: 1px solid #cacaca;
+            border-radius: 2px;
+        }
+        .pagination li a {
+            text-decoration: none;
+        }
+        .active {
+            background-color: #09F;
+        }
+        .active a {
+            color: #fff;
+        }
+        img {
+            width: 200px;
+            height: 120px;
+            object-fit: cover;
+            object-position: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <ul class="pagination">
+        <li>
+            <a href="/page/1">&lt;</a>
+        </li>
+        <li class="active">
+            <a href="/page/1">1</a>
+        </li>
+        <li>
+            <a href="/page/2">2</a>
+        </li>
+        <li>
+            <a href="/page/3">3</a>
+        </li>
+        <li>
+            <a href="/page/4">4</a>
+        </li>
+        <li>
+            <a href="/page/2">&gt;</a>
+        </li>
+    </ul>
+
+    <img src="https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80" />
+</body>
+</html>

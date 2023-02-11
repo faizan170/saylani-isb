@@ -1,0 +1,49 @@
+.content-container {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box {
+    background-color: lightcoral;
+    width: 25%;
+}
+
+.box2 {
+    width: 50%;
+    background-color: blue;
+}
+
+.box-content {
+    margin-left: 4px; margin-right: 4px;
+    background-color: rgb(197, 100, 100);
+    display: flex;
+    justify-content: space-between;
+}
+.data-box {
+    background-color: blueviolet;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.data-box-content {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: chocolate;
+    margin: auto;
+}
+
+.programming-langs {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-lang {
+    background-color: aquamarine;
+    width: 18%;
+}
