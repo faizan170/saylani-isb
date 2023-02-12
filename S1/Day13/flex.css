@@ -1,0 +1,74 @@
+:root {
+    --btncolor: rgb(8, 208, 8);
+    --btnPadding: 5px
+}
+
+
+.main-content {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .box {
+    width: 300px
+} */
+
+.box {
+    background-color: aqua;
+    width: 25%;
+}
+
+@media screen and (max-width:800px) {
+    .box {
+        width: 33.333%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .box {
+        width: 50%;
+        font-size: 24px;
+    }
+}
+
+
+.box-content {
+    background-color: var(--btncolor);
+    margin: 1px;
+    font-size: 40px;
+}
+
+.data-box-container {
+    background-color: lightcoral;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.data-box-content {
+    background-color: aqua;
+    width: 60px;
+    text-align: center;
+    height: 40px;
+    margin: auto;
+}
+
+.data-box-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.programming-langs {
+    background-color: var(--btncolor);
+    display: flex;
+}
+
+.single-lang {
+    background-color: burlywood;
+    width: 20%;
+}
