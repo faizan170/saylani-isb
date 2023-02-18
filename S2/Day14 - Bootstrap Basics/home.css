@@ -1,0 +1,24 @@
+.btn-gray {
+    background-color: gray;
+    color: #111;
+}
+
+.btn-lightgreen {
+    background-color: rgb(133, 203, 133);
+    color: green;
+}
+
+.mybox {
+    border: 1px solid lightcoral;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
+}
+
+.pad-5 {
+    padding: 5px  !important;
+}
+.pad-6 {
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+.btn {
+    border: none;
+    border-radius: 3px;
+    padding: 6px 8px;
+}
+.btn-google {
+    background-color: brown;
+    color: #fff;
+}
+.btn-facebook {
+    background-color: blueviolet;
+    color: #fff;
+}
+.btn-linkedin {
+    background-color: #05F;
+    color: #fff;
+}

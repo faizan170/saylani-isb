@@ -1,0 +1,20 @@
+.btn {
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+}
+
+.btn-violet {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.btn-gray {
+    background-color: gray;
+    color: #111;
+}
