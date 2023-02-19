@@ -1,0 +1,19 @@
+.login-main {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box {
+    padding: 10px 20px;
+    width: 500px;
+    margin: auto;
+}
+
+@media screen and (max-width:500px) {
+    .login-box {
+        width: 100%;
+    }
+}

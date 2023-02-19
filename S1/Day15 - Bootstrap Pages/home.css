@@ -1,0 +1,20 @@
+.main-container {
+    padding: 0
+}
+
+.mv-30 {
+    margin: 30px 0px;
+}
+
+.carousel-img {
+    height: 400px;
+}
+
+.footer {
+    padding: 40px 0px;
+    color: white;
+}
+
+.wps {
+    word-spacing: 15px;
+}

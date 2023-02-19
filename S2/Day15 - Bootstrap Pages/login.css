@@ -1,0 +1,11 @@
+.login-container {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+}
+
+.login-card {
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+}
