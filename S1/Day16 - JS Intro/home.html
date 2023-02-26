@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .card {
+            font-size: 20px;
+        }
+        .heading {
+            font-size: 1.5rem; 
+            color: rgb(255, 20, 20);
+            /* color: red; */
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="card">
+        This is card 
+        <!-- text -->
+        <p id="heading" class="heading">This is a <b>heading</b></p>
+    </div>    
+
+    <script>
+        // alert(6)
+        console.log(document.getElementById("heading").innerHTML)
+
+        // var x = 5;
+        var x;
+        var y = 9;
+
+        var z = x + y
+        
+        // console.log(x, 10, y, 5, 8, 2)
+        console.log(x + y)
+        console.log(z)
+
+        document.getElementById("heading").innerHTML = z
+
+    </script>
+
+</body>
+</html>
